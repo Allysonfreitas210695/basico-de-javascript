@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operação de soma no js.</title>
+        <style>
+            body{
+                background-color: rgb(79, 121, 121);
+                font: 14pt Arial;
+            }
+        </style>
+</head>
+<body>
+    <h1>somando dois numeros</h1> 
+    <button onclick="soma()">click</button> 
+    <section id="rest">o resultado da soma saira aqui</section>
+        <script>
+            function soma(){
+                /*quando entrar no site aqui vai perdi para digita dois numeros que vamos usar para 
+                fazer a soma*/
+                let n1=Number(window.prompt("digite o primeiro numero aqui"))
+                let n2=Number(window.prompt("digite o segundo numero aqui"))
+                let somat=n1+n2
+                /*o queryselector é usado para ir no documento html e pegar a devida informação pode 
+                ser um class ou id...*/
+                let res=window.document.querySelector("section#rest")
+                res.innerHTML=`<p>o resultado da soma é ${somat} dos seguintes numeros ${n1} e ${n2}`
+            }
+        </script>
+</body>
+</html>
