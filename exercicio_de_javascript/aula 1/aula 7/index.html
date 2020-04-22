@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>operação com numeros js.</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+            <h1>Media</h1>
+            <button onclick="media()">click</button>
+            <section class="res">aqui aparecerá resultado do numero</section>
+    <script>
+            function media(){
+            let n1=Number(window.prompt("digite o numero aqui!"))
+            let n2=Number(window.prompt("digite o numero aqui!"))
+            let med=(n1+n2)/2
+            let res=window.document.querySelector("section.res")
+            res.innerHTML=`<p> a media é ${med}`
+            }
+    </script>
+</body>
+</html>
