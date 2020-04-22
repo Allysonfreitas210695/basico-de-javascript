@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numeros com js</title>
+</head>
+<body>
+    <h1>trabalhando com numeros</h1>
+        <button onclick="calcular()">click em mim</button>
+            <section id="resultado">
+                <p>o resultado vai aqui</p>
+            </section>
+                <script>
+                    // O que fica aqui fora vai executar automaticamente, SEMPRE que o site for carregado
+                    window.alert("seja bem-vindo ao site!")
+                    // Já a função calcular() só vai executar quando o usuário pressionar o botão
+                    function calcular(){
+                        let numero=Number(window.prompt("digite o numero aqui"))
+                        let res=window.document.querySelector("section#resultado")
+                        res.innerHTML=`<p>o numero é ${numero}, seu dobro é ${numero*2} e sua metade é ${numero/2}</p>`
+
+                    }
+                </script>
+</body>
+</html>
