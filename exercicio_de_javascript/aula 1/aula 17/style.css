@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Titillium+Web:wght@200&display=swap');
+h1{
+    font-size: 17pt;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+body{
+    background-color: rgb(140, 202, 104);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: normal;
+}
+button{
+    padding: 24pt;
+    font-size: 14pt;
+    margin-left: 600px;
+}
+section{
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
