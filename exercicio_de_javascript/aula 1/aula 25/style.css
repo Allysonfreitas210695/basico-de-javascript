@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@1&display=swap');
+body{
+    background-color: rgb(196, 172, 141);
+}
+h1{
+    font-size: 24pt;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif ;
+}
+p{
+    font-size: 18pt;
+    font-family: 'Libre Caslon Text', serif;
+    color: rgb(70, 42, 22);
+}
+input[type=number] { 
+    font-size: 12pt;
+ }
+input[type=submit] { 
+    background-color: rgb(132, 162, 167); 
+    color: white; 
+    font-size: 12pt; 
+    padding: 5px; 
+}
