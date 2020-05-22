@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 21px;
+    color:black;
+    background-color: whitesmoke;
+    font-weight: normal;
+}
+.ajudar{
+    text-align: center;
+}
+h1, h2{
+    font-family: 'Press Start 2P', cursive;
+}
+input [type=number]{
+    font-size: 12pt;
+}
+input [type=submit]{
+    background-color: rgb(82, 104, 41); 
+    color: white; 
+    font-size: 12pt; 
+    padding: 5px; 
+}
